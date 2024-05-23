@@ -1,0 +1,9 @@
+google.com##promo-throttler
+www.youtube.com###sections
+accounts.youtube.com###sections
+m.yelp.com##[aria-label="Download the Yelp app"]
+www.foxnews.com##[data-spotim-app="conversation"]
+google.com##.gTMtLb.fp-nh[style="visibility: visible;"]
+google.com##html:style(position: static !important; overflow: auto !important; width: auto !important;)
+www.cnn.com###openweb-convo
+
