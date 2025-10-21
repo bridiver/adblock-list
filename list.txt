@@ -8,6 +8,8 @@ google.com##.gTMtLb.fp-nh[style="visibility: visible;"]
 google.com##html:style(position: static !important; overflow: auto !important; width: auto !important;)
 www.cnn.com###openweb-convo
 !Try more ways
-google.com##div[aria-labelledby="promo_label_id"]:remove()
-google.com##div[aria-describedby="promo_desc_id"]:remove()
+# google.com##div[aria-labelledby="promo_label_id"]:remove() 
+google.com##div:has(> div[aria-labelledby="promo_label_id"]):remove()
+# google.com##div[aria-describedby="promo_desc_id"]:remove()
+google.com##div:has(> div[aria-describedby="promo_desc_id"]):remove()
 
